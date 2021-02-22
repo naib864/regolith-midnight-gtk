@@ -1,9 +1,10 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: midnight
-Source: TODO
+Source: https://github.com/i-mint/midnight/tree/master/Midnight-GrayNight
 
 Files: *
-Copyright: TODO
+Copyright: 2020 auoi <auoi.fik@gmail.com>
+2021 naib864 <naib864@naib.top>
 License: GPL-3.0+
 
 License: GPL-3.0+

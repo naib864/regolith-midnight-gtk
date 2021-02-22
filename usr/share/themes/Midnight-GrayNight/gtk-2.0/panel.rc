@@ -8,15 +8,15 @@ style "theme-panel" {
   bg[PRELIGHT] = "#383838"
   bg[SELECTED] = @selected_bg_color
 
-  fg[NORMAL] = "#F6F6F4"
+  fg[NORMAL] = "#D3D3D3"
   fg[PRELIGHT] = "#FFFFFF"
   fg[ACTIVE] = @selected_fg_color
   fg[SELECTED] = @selected_fg_color
 
-  text[NORMAL] = "#F6F6F4"
-  text[PRELIGHT] = "#F6F6F4"
-  text[ACTIVE] = "#F6F6F4"
-  text[SELECTED] = "#F6F6F4"
+  text[NORMAL] = "#D3D3D3"
+  text[PRELIGHT] = "#D3D3D3"
+  text[ACTIVE] = "#D3D3D3"
+  text[SELECTED] = "#D3D3D3"
 
   engine "murrine" {
     reliefstyle = 0
@@ -128,7 +128,7 @@ class "PanelToplevel*"                                style "theme-panel"
 widget_class "*PanelToplevel*"                        style "theme-panel"
 widget_class "*notif*"                                style "theme-panel"
 widget_class "*Notif*"                                style "theme-panel"
-widget_class "*Tray*"                                 style "theme-panel" 
+widget_class "*Tray*"                                 style "theme-panel"
 widget_class "*tray*"                                 style "theme-panel"
 widget_class "*computertemp*"                         style "theme-panel"
 widget_class "*Applet*Tomboy*"                        style "theme-panel"
