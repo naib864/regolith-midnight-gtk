@@ -1,0 +1,12 @@
+Source: midnight-gtk-theme
+Section: misc
+Priority: optional
+Maintainer: TODO
+Build-Depends: debhelper (>= 10.3),
+Build-Depends-Indep:
+
+Package: midnight-gtk-theme
+Architecture: all
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+Description: Midnight GrayNight GTK Theme
